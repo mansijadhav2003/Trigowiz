@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AboutUsController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Images/rm373batch13-086.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="280.0" layoutX="2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Images/c2w.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="280.0" layoutX="718.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Images/logo.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="343.0" layoutY="11.0" prefHeight="49.0" prefWidth="319.0" text="About Us" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+         </font>
+      </Label>
+      <VBox alignment="TOP_CENTER" layoutX="369.0" layoutY="126.0" prefHeight="356.0" prefWidth="270.0" spacing="20.0">
+         <children>
+            <Label alignment="CENTER" text="Pentadents" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="38.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" prefHeight="206.0" prefWidth="270.0" spacing="20.0">
+               <children>
+                  <Label text="Mansi Jadhav" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label text="Pratik Patil" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label text="Kiran Pawar" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label text="Nirupama Ambre" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label text="Rutuparn Sadvelkar" textFill="WHITE">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Button fx:id="backButton" layoutX="834.0" layoutY="585.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="50.0" prefWidth="140.0" text="Back">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="478.0" fitWidth="223.0" layoutX="47.0" layoutY="31.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../Images/Homeback.png" />
+         </image>
+         <effect>
+            <Glow level="0.19" />
+         </effect>
+      </ImageView>
+      <VBox alignment="CENTER" layoutX="697.0" layoutY="150.0">
+         <children>
+            <Label text="The project is completed" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label text="under the guidance of" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label text="Shashi Sir , Sachin Sir," textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label text="Super-X Team" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label text="and Core2web Family." textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="7.0" layoutY="498.0" prefHeight="127.0" prefWidth="800.0">
+         <children>
+            <Label text="We want to extend our heartfelt gratitude to Core2web and Shashi Sir for this incredible" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Label layoutX="10.0" layoutY="34.0" text="learning journey! From ground zero to advanced coding, Core2web unlocked the doors" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Label layoutX="10.0" layoutY="58.0" text=" to the captivating world of programming for us. Shashi Sir's mentorship has been nothing" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Label layoutX="10.0" layoutY="82.0" text=" short of transformative. He not only taught us coding but also instilled a mindset for " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Label layoutX="10.0" layoutY="106.0" text="conquering new frontiers with limited resources." textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="20.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="40.0" layoutY="633.0" lineSpacing="20.0" prefHeight="42.0" prefWidth="749.0" text="Thank you, Shashi Sir and Core2web for this incredible learning journey!" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+         </font>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+   </children>
+</Pane>
